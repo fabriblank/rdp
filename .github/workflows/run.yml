@@ -5,7 +5,7 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-    timeout-minutes: 385
+    timeout-minutes: 10000
     steps:
     - uses: actions/checkout@v4
     - name: Setup Tailscale RDP
